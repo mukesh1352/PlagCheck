@@ -6,11 +6,11 @@ A fast, parallelized tool for comparing file similarity using line-based diff an
 
 ## Features
 
-- ⚡ Parallel processing with Rayon
-- 📊 Accurate similarity percentages using Myers diff algorithm
-- 📝 Line-level comparisons with whitespace normalization
-- ⏱️ Measures and reports total processing time
-- 📂 Compares one file against all files in a directory
+-  Parallel processing with Rayon
+-  Accurate similarity percentages using Myers diff algorithm
+-  Line-level comparisons with whitespace normalization
+-  Measures and reports total processing time
+-  Compares one file against all files in a directory
 
 ## Installation
 
@@ -101,7 +101,7 @@ rayon = "1.7"
 blake = "2.0.2"
 ```
 ## PROJECT STRUCTURE
-
+```bash
 src/
 ├── main.rs              # CLI interface
 ├── input.rs             # File I/O operations
@@ -109,4 +109,4 @@ src/
 ├── utils.rs             # Helper functions
 tests/                   # Unit tests
 Cargo.toml               # Project configuration
-
+```
