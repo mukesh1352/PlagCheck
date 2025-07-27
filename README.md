@@ -30,55 +30,7 @@ cargo build --release
 cargo run --release
 ```
 
-# Example output
-```bash
 
-Enter the path of the file to be compared:
-/Users/mukesh/Documents/NNDL_Assignment-main/CB.EN.U4CSE22531.ipynb
-Enter the comparison directory:
-/Users/mukesh/Documents/NNDL_Assignment-main
-Comparing file: /Users/mukesh/Documents/NNDL_Assignment-main/CB.EN.U4CSE22531.ipynb
-With directory: /Users/mukesh/Documents/NNDL_Assignment-main
-
- Matching Report:
-
- File: CB.EN.U4CSE22365.ipynb         Match: 52.43%
- File: CB.EN.U4CSE22135_perceptron.ipynb Match: 43.75%
- File: CBENU4CSE22140.ipynb           Match: 41.61%
- File: CB.EN.U4CSE22324_NNDL.ipynb    Match: 46.43%
- File: CB.EN.U4CSE22037.ipynb         Match: 42.31%
- File: CB.EN.U4CSE22336.ipynb         Match: 42.62%
- File: CB.EN.U4CSE22310.ipynb         Match: 41.46%
- File: CB.EN.U4CSE22432.ipynb         Match: 21.90%
- File: CB.EN.U4CSE22312.ipynb         Match: 41.46%
- File: CB.EN.U4ECE22265.ipynb         Match: 39.88%
- File: CB.EN.U4ECE21041.ipynb         Match: 18.64%
- File: CB.EN.U4CSE22514.ipynb         Match: 39.88%
- File: CB.EN.U4CSE22453.ipynb         Match: 46.94%
- File: CB.EN.U4CSE22216.ipynb         Match: 100.00%
- File: CB.EN.U4CSE22503_git.ipynb     Match: 39.88%
- File: CB_EN_U4CSE22518.ipynb         Match: 27.35%
- File: CB.EN.U4CSE22018.ipynb         Match: 42.31%
- File: CB.EN.U4CSE22350.ipynb         Match: 90.91%
- File: CB.EN.U4CSE22451.ipynb         Match: 46.94%
- File: CB.EN.U4CSE22027.ipynb         Match: 42.31%
- File: CB.EN.U4CSE22531.ipynb         Match: 100.00%
- File: CB.EN.U4ECE22014.ipynb         Match: 16.10%
- File: CB.EN.U4CSE22515.ipynb         Match: 39.88%
- File: CB_EN_U4CSE22325.ipynb         Match: 23.85%
- File: CB.EN.U4CSE22505.ipynb         Match: 100.00%
- File: CB.EN.U4CSE22303.ipynb         Match: 40.52%
- File: CB.EN.U4CSE22311.ipynb         Match: 46.43%
- File: CB.EN.U4CSE22021.ipynb         Match: 39.88%
- File: CB.EN.U4CSE22250.ipynb         Match: 43.85%
- File: CBENU4CSE22148.ipynb           Match: 40.79%
- File: CB.EN.U4CSE22425.ipynb         Match: 23.01%
- File: CB.EN.U4ECE21159.ipynb         Match: 21.11%
-
- Completed in: 47.11ms (hh:mm:ss.ms)
-
- Success.
- ```
  ### How it works
 1.Reads the reference file line by line
 
