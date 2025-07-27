@@ -1,8 +1,10 @@
 use rayon::prelude::*;
 use similar::{Algorithm, DiffTag, TextDiff};
+use std::time::Instant;
 use std::fs;
 
 pub fn content_checker1(pathname: &str, output_path: &str) {
+   let start_time = Instant::now();
     let input_content = match fs::read_to_string(pathname) {
         Ok(c) => c,
         Err(e) => {
@@ -34,6 +36,8 @@ pub fn content_checker1(pathname: &str, output_path: &str) {
             }
         }
     });
+    let elapsed = start_time.elapsed();
+    println!("\n Completed in: {:.2?} (hh:mm:ss.ms)",elapsed);
 }
 
 // Helper to trim and normalize whitespace
