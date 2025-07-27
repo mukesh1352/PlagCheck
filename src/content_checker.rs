@@ -21,7 +21,7 @@ pub fn content_checker1(pathname: &str, output_path: &str) {
         }
     };
 
-    println!("\n🧾 Matching Report:\n");
+    println!("\n Matching Report:\n");
 
     entries.par_iter().for_each(|entry| {
         let path = entry.path();
@@ -29,7 +29,7 @@ pub fn content_checker1(pathname: &str, output_path: &str) {
             if let Ok(comp_content) = fs::read_to_string(&path) {
                 let similarity = calculate_similarity(&input_content, &comp_content);
                 println!(
-                    "📄 File: {:<30} Match: {:.2}%",
+                    " File: {:<30} Match: {:.2}%",
                     path.file_name().unwrap().to_string_lossy(),
                     similarity
                 );
