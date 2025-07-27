@@ -110,3 +110,6 @@ src/
 tests/                   # Unit tests
 Cargo.toml               # Project configuration
 ```
+
+## License
+MIT License - See LICENSE for details.
